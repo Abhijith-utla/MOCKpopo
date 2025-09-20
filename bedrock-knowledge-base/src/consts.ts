@@ -41,7 +41,7 @@ export const KnowledgeBaseToolSchema = JSON.stringify({
   "properties": {
     "query": {
       "type": "string",
-      "description": "The user question about police reports or policies"
+      "description": "The user question about police reports or policies. if its about a report, focus on the event, not the time or date"
     }
   },
   "required": ["query"]
